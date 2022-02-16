@@ -1,0 +1,45 @@
+<html>
+<head>
+  <title>BumSu's Mood Board</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="grid">
+    <div class="sidebar">
+    <h1 class="site-name">BumSu Mood Board</h1>
+    
+    <!-- Search -->
+    <div class="search">
+      <div class="form">
+        <input class="form-input"/>
+        <button onclick="runSearch();">Search</button>
+      </div>
+
+      <!-- Suggestions -->
+      <div class="suggestions">
+        <div class="suggestion-container results">
+        </div>
+      </div>
+    </div>
+
+    <!-- Results Display -->
+    <div id="results" class="results">
+      <div class="clear-button">
+        <a id="exitButton" href="#" title="Close the search results pane">Clear</a>
+      </div>
+      <!-- Suggested images -->
+      <div id="suggested-image-container" class="suggested-image-container results">
+      </div>
+    </div>
+  </div>
+
+  <!-- Mood board -->
+    <div id="mood-board" class="mood-board">
+      <div id="mood-board-image-container" class="mood-board-image-container">
+      </div>
+    </div>
+  </div>
+  <script src="apikey.js"></script>
+  <script src="mood.js"></script>
+</body>
+</html>

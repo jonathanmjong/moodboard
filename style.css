@@ -1,0 +1,134 @@
+
+/* General styling */
+
+body {
+  font-family: Helvetica;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1.2fr 5fr;
+}
+
+.sidebar {
+  background-color: rgb(244, 239, 239);
+  height: 1000px;
+}
+
+.sidebar h1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.site-name {
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+}
+
+.form input {
+  width: 200px;
+  height: 28px;
+  font-size: 18px;
+}
+
+.form button {
+  height: 28px;
+  font-size: 18px;
+}
+
+/* Search results and their elements styling */
+
+.suggestions {
+  margin-top: 20px;
+}
+
+.rec-container {
+  color: rgb(87, 82, 82);
+  font-weight: bold;
+  padding: 5px 15px;
+  margin-left: 5px;
+  margin-top: 5px;
+  display: inline-block;
+  background-color: rgb(246, 192, 163);
+  border-radius: 10px;
+}
+
+.rec-container:hover{
+  cursor: pointer;
+}
+
+.clear-button {
+  margin: 30px 0px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.clear-button  a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(87, 82, 82);
+  border-color: rgb(87, 82, 82);
+  border-width: 4px;
+  padding: 3px 20px;
+  border-radius: 20px;
+  border-style: solid;
+}
+
+.clear-button  a:hover {
+  color: red; 
+  border-color: red;
+}
+
+.suggestion-container {
+  height: 250px;
+  overflow-y: scroll;
+  text-align: center;
+}
+
+.suggested-image-container {
+  height: 800px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+.suggested-image {
+  margin-bottom: 30px ;
+  width: 380px;
+  height: 380px;
+  border-radius: 20px;
+}
+
+.suggested-image:hover {
+  cursor: pointer;
+}
+
+#results {
+  display: none;
+}
+
+#results:target {
+  display: block;
+}
+
+/* Mood board and mood board elements styling */
+
+.mood-board-image-container {
+  margin: auto;
+  text-align: center;
+}
+
+.selected-image {
+  width: 350px;
+  height: 350px;
+}
+
+
+.selected-image-container {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 10px 10px 10px 10px rgb(242, 225, 225);
+  display: inline-block;
+}
